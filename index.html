@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,31 +12,33 @@
             <h1 class="site-title">GodotLingo</h1>
         </div>
         <div class="toolbar-right">
+            <button class="toolbar-btn">Home</button>
+            <button class="toolbar-btn">Create</button>
+            <button class="toolbar-btn">Upload</button>
+            <button class="toolbar-btn">Save</button>
             <div class="language-selector">
-                <span class="language-trigger">Язык</span>
+                <span class="language-trigger">English</span>
                 <div class="language-dropdown">
-                    <button class="language-option active">Русский</button>
-                    <button class="language-option">English</button>
-                    <button class="language-option">Español</button>
-                    <button class="language-option">中文</button>
+                    <button class="language-option" data-lang="ru">Русский</button>
+                    <button class="language-option active" data-lang="en">English</button>
+                    <button class="language-option" data-lang="es">Español</button>
+                    <button class="language-option" data-lang="zh">中文</button>
                 </div>
             </div>
-            <button class="toolbar-btn">Главная</button>
-            <button class="toolbar-btn">Создать</button>
-            <button class="toolbar-btn">Загрузить</button>
-            <button class="toolbar-btn">Сохранить</button>
         </div>
     </header>
 
     <main>
         <div class="content-section">
-            <h2>Добро пожаловать в GodotLingo</h2>
-            <p>Современная платформа для разработки и управления проектами на Godot Engine. Создавайте, делитесь и развивайтесь вместе с сообществом.</p>
+            <h2>Welcome to GodotLingo</h2>
+            <p>Modern platform for Godot Engine project development and management. Create, share and grow together with the community.</p>
         </div>
     </main>
 
     <footer>
-        <p>&copy; 2025 GodotLingo. Все права защищены.</p>
+        <p>&copy; 2025 GodotLingo. All rights reserved.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -120,14 +120,6 @@ body {
 .language-option.active {
     color: #fff;
     background-color: rgba(121, 40, 202, 0.1);
-    position: relative;
-}
-
-.language-option.active::before {
-    content: '✓';
-    position: absolute;
-    left: 0.5rem;
-    color: #7928ca;
 }
 
 .toolbar-btn {

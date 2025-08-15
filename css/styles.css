@@ -12,41 +12,52 @@ body {
     line-height: 1.6;
 }
 
-header {
+/* Тулбар */
+.toolbar {
     background-color: #1e1e1e;
-    padding: 2rem 1rem;
-    text-align: center;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     border-bottom: 2px solid #333;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
-header h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
+.toolbar-left .site-title {
+    font-size: 1.8rem;
     color: #bb86fc;
+    margin: 0;
 }
 
-header p {
-    font-size: 1.2rem;
-    color: #aaa;
+.toolbar-right {
+    display: flex;
+    gap: 1rem;
+}
+
+.toolbar-btn {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s ease;
+}
+
+.toolbar-btn:hover {
+    background-color: #3d3d3d;
+}
+
+.toolbar-btn:active {
+    background-color: #4d4d4d;
 }
 
 main {
-    padding: 2rem 1rem;
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-section {
-    margin-bottom: 2rem;
-}
-
-h2 {
-    color: #03dac6;
-    margin-bottom: 1rem;
-}
-
-p {
-    font-size: 1.1rem;
+    padding: 2rem;
+    min-height: calc(100vh - 120px);
 }
 
 footer {

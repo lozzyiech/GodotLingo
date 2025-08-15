@@ -6,7 +6,7 @@ GodotLingo is a lightweight, user-friendly tool that helps indie developers and 
 
 ## 🎯 Why GodotLingo?
 
-Localization in Godot often involves manually editing `.po`, `.csv`, or `.tres` files — a process that can be time-consuming, error-prone, and hard to collaborate on. GodotLingo streamlines this by offering:
+Localization in Godot often involves manually editing `.csv` files — a process that can be time-consuming, error-prone, and hard to collaborate on. GodotLingo streamlines this by offering:
 
 - A clean, intuitive web interface for managing translations.
 - Support for Godot’s native localization formats.
@@ -18,7 +18,7 @@ No more switching between text editors, spreadsheets, and the engine. Just uploa
 
 ## 💡 Features (Coming Soon)
 
-- Upload and parse `.po`, `.csv`, or `.tres` localization files.
+- Upload and parse `.csv` localization files.
 - Edit translations in a tabular, spreadsheet-like UI.
 - View context (e.g. message IDs) to avoid ambiguous translations.
 - Export localized files ready for Godot.
